@@ -1,0 +1,4 @@
+Our  objective is to predict whether user is diabetes positive or not based on various features like Glucose level, insulin level, blood pressure, BMI(Body Mass Index), etc.,.
+We perform all steps from the Data collection to model deployment. We compare various machine learning algorithms during model evaluation based on evaluation metrics like accuracy, F1_score, recall, etc.,. Then we create web application using ReactJS, Python Flask and SQLite Database. 
+We selected algorithm with the highest accuracy and converted that model into a joblib file, which can be implemented in a user interface for prediction purposes. The trained Random Forest model, after saving as a joblib file, which seamlessly integrated into the Python Flask at backend. When the backend receives input data from the front end, it passes this data to the model for prediction. 
+
